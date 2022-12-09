@@ -1,0 +1,45 @@
+/* Overall appearance */
+body {
+    text-align:center;
+    font-family:Arial;
+    font-size:2vw;
+    color:#F1C40F;
+    padding-top: 10px;
+    background-color:#1C2833;
+}
+p {
+    color:white;
+}
+
+/* Navigation buttons */
+.fcc-btn {
+        background-color: #F1C40F;
+        text-align: center;
+        color: #1C2833;
+        padding: 0.5vw 1vw;
+        text-decoration: none;
+        font-size: 2vw;
+        border-radius:18px;
+}
+
+.fcc-btn:hover {
+        background-color: #B7950B;
+        color:#1C2833;
+        transition: 0.3s;
+}
+
+
+/* Blog links */
+.blog-post {
+        background-color: transparent;
+        text-align:left;
+        color: #F1C40F;
+        font-size:2vw;
+        text-decoration: none;
+        white-space: pre-line;
+}
+.blog-post:hover {
+        background-color: transparent;
+        color: #B7950B;
+        transition: 0.3s;
+}
